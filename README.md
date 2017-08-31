@@ -9,4 +9,5 @@ and set "Current" equal to "clairvoyance" (no speech marks).
 
 ## Video example:
 Click the image to see the video:
+
 [![Alt text](clairvoyance_screenshot.png?raw=true "Click to see video")](clairvoyance_example.webm?raw=true)
