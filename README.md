@@ -8,5 +8,4 @@ Then set the current theme to clairvoyance in sddm.conf:<br>
 and set "Current" equal to "clairvoyance" (no speech marks).
 
 ## Video example:
-<video src="hhttps://github.com/Eayu/sddm-theme-clairvoyance/clairvoyance_example.webm" controls>
-</video>
+[![Alt text](clairvoyance_screenshot.png?raw=true "Click to see video")](clairvoyance_example.webm?raw=true)
