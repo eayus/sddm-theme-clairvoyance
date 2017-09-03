@@ -11,3 +11,7 @@ and set "Current" equal to "clairvoyance" (no speech marks).
 Click the image to see the video:
 
 [![Alt text](clairvoyance_screenshot.png?raw=true "Click to see video")](clairvoyance_example.webm?raw=true)
+
+## Credits
+
+I shamelessly stole the power icons (shutdown restart etc.) from https://github.com/Match-Yang/sddm-deepin .
