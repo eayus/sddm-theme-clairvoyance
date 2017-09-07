@@ -93,11 +93,11 @@ Item {
       right: userProfile.left
       rightMargin: 30
     }
-    y: 430
+    y: 500
     width: 32
     height: 32
     source: "Assets/Selector.png"
-    transform: Rotation { origin.x : 50; origin.y: 50; angle: 270}
+    transform: Rotation { origin.x : 16; origin.y: 16; angle: 270}
 
     MouseArea {
       anchors.fill: parent
