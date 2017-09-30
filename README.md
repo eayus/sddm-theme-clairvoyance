@@ -1,6 +1,8 @@
 ## Installation:<br>
 First clone the repository:<br>
-```git clone https://github.com/Eayu/sddm-theme-clairvoyance```<br>    
+```git clone https://github.com/Eayu/sddm-theme-clairvoyance```<br><br>
+Make sure that you have both sddm and qt5 installed. On arch:<br>
+```sudo pacman -S sddm qt5```<br><br>
 Then move it to the sddm-themes directory:<br>
 ```sudo mv sddm-theme-clairvoyance /usr/share/sddm/themes/clairvoyance```<br><br>
 Then set the current theme to clairvoyance in sddm.conf:<br>
