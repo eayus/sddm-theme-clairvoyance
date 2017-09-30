@@ -7,3 +7,4 @@ Version=1.0
 MainScript=Main.qml
 Theme-Id=clairvoyance
 Theme-API=2.0
+Screenshot=clairvoyance_screenshot.png
