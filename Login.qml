@@ -6,7 +6,6 @@ Item {
 
   width: page.width
   height: page.height
-  y: 650
   anchors.horizontalCenter: page.horizontalCenter
   anchors.verticalCenter: page.verticalCenter
 
@@ -93,7 +92,7 @@ Item {
       right: userProfile.left
       rightMargin: 30
     }
-    y: 500
+    y: parent.height / 2
     width: 32
     height: 32
     source: "Assets/Selector.png"
