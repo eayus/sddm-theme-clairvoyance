@@ -31,6 +31,10 @@ Item {
     listView.focus = true;
   }
 
+  function focusPassword() {
+    passwordInput.focus = true;
+  }
+
   KeyNavigation.tab: passwordInput
   Keys.onEscapePressed: back()
 

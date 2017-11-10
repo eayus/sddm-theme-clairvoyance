@@ -10,7 +10,7 @@ Item {
   Image {
     id: background
     anchors.fill: parent
-    source: "Assets/Background.jpg"
+    source: config.background
   }
 
   Login {
@@ -48,7 +48,7 @@ Item {
         color: "white"
         opacity: (delegateArea.containsMouse || sessionSelect.currentIndex == index) ? 1 : 0.3
         font {
-          pointSize: 12
+          pointSize: (config.enableHDPI == "true") ? 6 : 12
           family: "FiraMono"
         }
         wrapMode: Text.Wrap

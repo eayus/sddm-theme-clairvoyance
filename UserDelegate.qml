@@ -43,7 +43,11 @@ Item {
       loginFrame.name = name
       loginFrame.icon = icon
       listView.focus = false
-      loginFrame.focus = true
+
+	  if (config.autoFocusPassword == "true")
+		focusDelay.start();
+	  else
+        loginFrame.focus = true;
     }
   }
 

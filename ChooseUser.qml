@@ -22,7 +22,22 @@ ListView {
     loginFrame.name = currentItem.name
     loginFrame.icon = currentItem.icon
     focus = false
-    loginFrame.focus = true
+	
+	if (config.autoFocusPassword == "true")
+	  focusDelay.start();
+	else
+	  loginFrame.focus = true;
+  }
+
+  Timer {
+    id: focusDelay
+	interval: 500
+	running: false
+	repeat: false
+
+	onTriggered: {
+      loginFrame.focusPassword();
+	}
   }
 
   Image {
@@ -30,7 +45,7 @@ ListView {
     width: 32
     height: 32
     source: "Assets/Selector.png"
-    x: listView.currentItem.x + (listView.currentItem.width / 2) -16
+    x: listView.currentItem.x + (listView.currentItem.width / 2) - 16
     y: listView.currentItem.y + listView.currentItem.height
 
     Behavior on x {
