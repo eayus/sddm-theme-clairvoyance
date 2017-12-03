@@ -6,6 +6,7 @@ Item {
   height: 250
 
   property string name: model.name
+  property string realName: (model.realName === "") ? model.name : model.realName
   property string icon: model.icon
 
   //User's Name
@@ -17,7 +18,7 @@ Item {
       family: "FiraMono"
       pointSize: 20
     }
-    text: name
+    text: realName
     anchors.horizontalCenter: parent.horizontalCenter
   }
 
@@ -41,6 +42,7 @@ Item {
       listView.currentIndex = index;
       page.state = "login";
       loginFrame.name = name
+      loginFrame.realName = realName
       loginFrame.icon = icon
       listView.focus = false
 

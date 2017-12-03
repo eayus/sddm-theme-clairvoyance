@@ -20,6 +20,7 @@ ListView {
   Keys.onReturnPressed: {
     page.state = "login";
     loginFrame.name = currentItem.name
+    loginFrame.realName = currentItem.realName
     loginFrame.icon = currentItem.icon
     focus = false
 	
